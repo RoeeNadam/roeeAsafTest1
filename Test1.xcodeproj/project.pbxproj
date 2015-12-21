@@ -15,6 +15,7 @@
 		6FB3FAD31C289B0A00EE1672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FB3FAD11C289B0A00EE1672 /* LaunchScreen.storyboard */; };
 		6FB3FADE1C289B0A00EE1672 /* Test1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3FADD1C289B0A00EE1672 /* Test1Tests.m */; };
 		6FB3FAE91C289B0A00EE1672 /* Test1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3FAE81C289B0A00EE1672 /* Test1UITests.m */; };
+		6FB3FAF81C28AA0C00EE1672 /* YQL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3FAF71C28AA0C00EE1672 /* YQL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		6FB3FAE41C289B0A00EE1672 /* Test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB3FAE81C289B0A00EE1672 /* Test1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1UITests.m; sourceTree = "<group>"; };
 		6FB3FAEA1C289B0A00EE1672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FB3FAF61C28AA0C00EE1672 /* YQL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQL.h; sourceTree = "<group>"; };
+		6FB3FAF71C28AA0C00EE1672 /* YQL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQL.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				6FB3FAC71C289B0A00EE1672 /* AppDelegate.m */,
 				6FB3FAC91C289B0A00EE1672 /* ViewController.h */,
 				6FB3FACA1C289B0A00EE1672 /* ViewController.m */,
+				6FB3FAF61C28AA0C00EE1672 /* YQL.h */,
+				6FB3FAF71C28AA0C00EE1672 /* YQL.m */,
 				6FB3FACC1C289B0A00EE1672 /* Main.storyboard */,
 				6FB3FACF1C289B0A00EE1672 /* Assets.xcassets */,
 				6FB3FAD11C289B0A00EE1672 /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				6FB3FACB1C289B0A00EE1672 /* ViewController.m in Sources */,
 				6FB3FAC81C289B0A00EE1672 /* AppDelegate.m in Sources */,
+				6FB3FAF81C28AA0C00EE1672 /* YQL.m in Sources */,
 				6FB3FAC51C289B0A00EE1672 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

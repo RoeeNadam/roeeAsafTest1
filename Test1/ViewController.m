@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YQL.h"
 
 @interface ViewController ()
 
@@ -19,17 +20,20 @@
     [super viewDidLoad];
     
     
-    /// asaf idiot !!
-    // Ya Habub !!!
-    //faksijfi afn afn isafifsaifjs
-    
-    // sfafasfafassalsafs
+    // Download the following GitHub repository https://github.com/guilhermechapiewski/yql-ios
+    // Copy the yql-ios folder to your project
     
     
-    // Do any additional setup after loading the view, typically from a nib.
+    YQL *yql = [[YQL alloc] init];
+    NSString *queryString = @"select * from weather.forecast where woeid=1968212";
+    NSDictionary *results = [yql query:queryString];
+    NSLog(@"%@",results[@"query"][@"count"]);
+    NSLog(@"%@",results[@"query"][@"results"]);
+        
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
