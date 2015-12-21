@@ -23,7 +23,6 @@
     // Download the following GitHub repository https://github.com/guilhermechapiewski/yql-ios
     // Copy the yql-ios folder to your project
     
-    
     YQL *yql = [[YQL alloc] init];
     NSString *queryString = @"select * from weather.forecast where woeid=1968212";
     NSDictionary *results = [yql query:queryString];
