@@ -14,8 +14,14 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
+    
+    
+    /// asaf idiot !!
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
