@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F07988F1C2D35E800B73188 /* Fan.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F07988E1C2D35E800B73188 /* Fan.png */; };
+		6F0798921C2D76F000B73188 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0798911C2D76F000B73188 /* LocationManager.m */; };
 		6FB3FAC51C289B0A00EE1672 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3FAC41C289B0A00EE1672 /* main.m */; };
 		6FB3FAC81C289B0A00EE1672 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3FAC71C289B0A00EE1672 /* AppDelegate.m */; };
 		6FB3FACB1C289B0A00EE1672 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB3FACA1C289B0A00EE1672 /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F07988E1C2D35E800B73188 /* Fan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fan.png; sourceTree = "<group>"; };
+		6F0798901C2D76F000B73188 /* LocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		6F0798911C2D76F000B73188 /* LocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 		6FB3FAC01C289B0A00EE1672 /* Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB3FAC41C289B0A00EE1672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FB3FAC61C289B0A00EE1672 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +93,7 @@
 				6FB3FADC1C289B0A00EE1672 /* Test1Tests */,
 				6FB3FAE71C289B0A00EE1672 /* Test1UITests */,
 				6FB3FAC11C289B0A00EE1672 /* Products */,
+				6F07988E1C2D35E800B73188 /* Fan.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +114,8 @@
 				6FB3FAC71C289B0A00EE1672 /* AppDelegate.m */,
 				6FB3FAC91C289B0A00EE1672 /* ViewController.h */,
 				6FB3FACA1C289B0A00EE1672 /* ViewController.m */,
+				6F0798901C2D76F000B73188 /* LocationManager.h */,
+				6F0798911C2D76F000B73188 /* LocationManager.m */,
 				6FB3FAF61C28AA0C00EE1672 /* YQL.h */,
 				6FB3FAF71C28AA0C00EE1672 /* YQL.m */,
 				6FB3FACC1C289B0A00EE1672 /* Main.storyboard */,
@@ -251,6 +259,7 @@
 				6FB3FAD31C289B0A00EE1672 /* LaunchScreen.storyboard in Resources */,
 				6FB3FAD01C289B0A00EE1672 /* Assets.xcassets in Resources */,
 				6FB3FACE1C289B0A00EE1672 /* Main.storyboard in Resources */,
+				6F07988F1C2D35E800B73188 /* Fan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB3FACB1C289B0A00EE1672 /* ViewController.m in Sources */,
+				6F0798921C2D76F000B73188 /* LocationManager.m in Sources */,
 				6FB3FAC81C289B0A00EE1672 /* AppDelegate.m in Sources */,
 				6FB3FAF81C28AA0C00EE1672 /* YQL.m in Sources */,
 				6FB3FAC51C289B0A00EE1672 /* main.m in Sources */,
@@ -418,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nadam.Test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -429,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Test1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nadam.Test1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,6 +514,7 @@
 				6FB3FAEF1C289B0A00EE1672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FB3FAF01C289B0A00EE1672 /* Build configuration list for PBXNativeTarget "Test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +523,7 @@
 				6FB3FAF21C289B0A00EE1672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6FB3FAF31C289B0A00EE1672 /* Build configuration list for PBXNativeTarget "Test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +532,7 @@
 				6FB3FAF51C289B0A00EE1672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

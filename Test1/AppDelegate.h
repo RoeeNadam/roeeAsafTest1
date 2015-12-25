@@ -7,10 +7,26 @@
 //
 
 #import <UIKit/UIKit.h>
+#import<CoreLocation/CoreLocation.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,CLLocationManagerDelegate>
+
+
+@property (nonatomic, retain) CLLocationManager *locationManager;
 
 @property (strong, nonatomic) UIWindow *window;
+
+
++(void)set_latitudeValue:(NSString *)GeoPoint;
++(NSString*)get_latitudeValue;
+
++(void)set_longitudeValue:(NSString *)GeoPoint;
++(NSString*)get_longitudeValue;
+
++(void)set_finishSetGeoPoint:(BOOL)flag;
++(BOOL)get_finishSetGeoPoint;
+
 
 
 @end

@@ -10,6 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property UILabel * degreesLable;
+@property UILabel * windLable;
+@property UILabel * waveHeight;
+@property UILabel *status;
+@property UILabel *addressLable;
+
+@property UIImageView * windImageView;
 
 @end
 
